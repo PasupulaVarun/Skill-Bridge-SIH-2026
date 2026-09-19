@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academia-Industry Collaboration Portal — smart skill development, internships, placements and collaboration." />
+  <title>SkillBridge — Academia × Industry Collaboration Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="toast" class="toast"></div>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">SB</div>
+        <div>
+          <strong>SkillBridge</strong>
+          <span>Academia × Industry</span>
+        </div>
+      </div>
+
+      <div class="role-switcher">
+        <label>Demo portal</label>
+        <select id="roleSelect">
+          <option value="student">Student</option>
+          <option value="industry">Industry</option>
+          <option value="institution">Institution</option>
+          <option value="academician">Academician</option>
+        </select>
+      </div>
+
+      <nav id="nav"></nav>
+
+      <div class="sidebar-bottom">
+        <div class="trust-mini"><span class="dot"></span> Secure & verified platform</div>
+        <button class="ghost-btn" id="logoutBtn">Sign out</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn mobile-menu" id="menuBtn">☰</button>
+        <div>
+          <div class="eyebrow" id="portalEyebrow">STUDENT PORTAL</div>
+          <h1 id="pageTitle">Your career command center</h1>
+        </div>
+        <div class="top-actions">
+          <button class="icon-btn" id="notificationBtn">🔔<span class="notif-dot"></span></button>
+          <div class="avatar">VP</div>
+        </div>
+            <div class="nav-actions">
+        <a href="oppurtunity.html" class="opportunity-btn">
+            Find Opportunity
+        </a>
+      </header>
+
+      <section id="content"></section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
