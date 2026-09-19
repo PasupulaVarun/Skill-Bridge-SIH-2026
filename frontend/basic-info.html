@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>SkillBridge | Student Profile</title>
+
+    <link rel="stylesheet" href="basic-info.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+<div class="profile-page">
+
+    <div class="profile-card">
+
+        <div class="profile-header">
+
+            <div class="brand-icon">
+                S
+            </div>
+
+            <div>
+
+                <div class="brand-name">
+                    SkillBridge
+                </div>
+
+                <h1>
+                    Build your student profile
+                </h1>
+
+                <p>
+                    Tell us about your skills and experience
+                    so we can find relevant opportunities.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <form id="profileForm">
+
+
+            <!-- EDUCATION -->
+
+            <div class="form-group">
+
+                <label for="education">
+                    Education
+                </label>
+
+                <input
+                    type="text"
+                    id="education"
+                    placeholder="Example: B.Tech CSE"
+                >
+
+            </div>
+
+
+            <!-- SKILLS -->
+
+            <div class="form-group">
+
+                <label for="skillsInput">
+                    Skills
+                </label>
+
+                <input
+                    type="text"
+                    id="skillsInput"
+                    placeholder="Python, SQL, HTML, Machine Learning"
+                >
+
+                <small>
+                    Separate multiple skills with commas.
+                </small>
+
+            </div>
+
+
+            <!-- CERTIFICATES -->
+
+            <div class="form-group">
+
+                <label for="certificates">
+                    Certifications
+                </label>
+
+                <textarea
+                    id="certificates"
+                    placeholder="Python Certificate, AWS Certificate..."
+                ></textarea>
+
+            </div>
+
+
+            <!-- PROJECTS -->
+
+            <div class="form-group">
+
+                <label for="projects">
+                    Projects
+                </label>
+
+                <textarea
+                    id="projects"
+                    placeholder="Movie Recommendation System, Portfolio Website..."
+                ></textarea>
+
+            </div>
+
+
+            <!-- ACHIEVEMENTS -->
+
+            <div class="form-group">
+
+                <label for="achievements">
+                    Achievements
+                </label>
+
+                <textarea
+                    id="achievements"
+                    placeholder="Hackathon finalist, coding competition..."
+                ></textarea>
+
+            </div>
+
+
+            <!-- INTERESTS -->
+
+            <div class="form-group">
+
+                <label for="interests">
+                    Career Interests
+                </label>
+
+                <input
+                    type="text"
+                    id="interests"
+                    placeholder="AI, ML, Web Development, Data Science"
+                >
+
+            </div>
+
+
+            <!-- EXPERIENCE -->
+
+            <div class="form-group">
+
+                <label for="experience">
+                    Experience
+                </label>
+
+                <textarea
+                    id="experience"
+                    placeholder="Internships, freelance work, project experience..."
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="submit-button"
+            >
+                Continue to Opportunities
+                <span>→</span>
+            </button>
+
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<script src="basic-info.js"></script>
+
+</body>
+</html>

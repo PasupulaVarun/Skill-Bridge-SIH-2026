@@ -1,0 +1,51 @@
+id,company,title,type,location,skills,description,eligibility,link
+1,ByteForge,Frontend Intern,Internship,Chennai,"SQL,Excel,Tableau,Python,Data Analysis",Design and maintain scalable backend services,CSE/AI students,https://example.com
+2,WebWorks,DevOps Intern,Internship,Bangalore,"SQL,Excel,Tableau,Python,Data Analysis",Design and maintain scalable backend services,All Engineering students,https://example.com
+3,InnoSoft,AI Research Intern,Internship,Bangalore,"Python,Flask,SQL,Docker,Kubernetes",Design and maintain scalable backend services,CSE/AI students,https://example.com
+4,InnoSoft,Full Stack Intern,Internship,Hyderabad,"Java,Spring Boot,SQL,REST API,Docker",Work on data analysis and ML projects,All Engineering students,https://example.com
+5,NexGen,Full Stack Intern,Internship,Chennai,"AWS,Docker,Kubernetes,Linux,Python",Work on data analysis and ML projects,CSE students,https://example.com
+6,NexGen,Python Developer Intern,Internship,Pune,"C++,Data Structures,Algorithms,Problem Solving",Software engineering tasks and feature development,B.Tech/M.Tech students,https://example.com
+7,AI_Sphere,Data Analyst Intern,Internship,Hyderabad,"JavaScript,React,HTML,CSS,Git",Analyze business data and create dashboards,CSE/AI students,https://example.com
+8,AppScale,Software Engineering Intern,Internship,Mumbai,"Python,Django,SQL,REST API,Git",Build full stack web applications,CSE/IT students,https://example.com
+9,TechNova,Data Science Intern,Internship,Pune,"Python,Django,SQL,REST API,Git",Build full stack web applications,ECE/CSE students,https://example.com
+10,CloudCore,Software Engineering Intern,Internship,Bangalore,"Python,Django,SQL,REST API,Git",Develop modern web user interfaces,CSE students,https://example.com
+11,AI_Sphere,Python Developer Intern,Internship,Bangalore,"Python,Django,SQL,REST API,Git",Develop modern web user interfaces,CSE students,https://example.com
+12,TechNova,Backend Intern,Internship,Pune,"Python,Machine Learning,TensorFlow,SQL,Docker",Manage cloud infrastructure and deployments,All Engineering students,https://example.com
+13,DataGenix,Full Stack Intern,Internship,Bangalore,"AWS,Docker,Kubernetes,Linux,Python",Manage cloud infrastructure and deployments,CSE/IT students,https://example.com
+14,AppScale,Frontend Intern,Internship,Remote,"React,Node.js,Express,MongoDB,JavaScript",Analyze business data and create dashboards,CSE/AI students,https://example.com
+15,DataGenix,Data Science Intern,Internship,Pune,"AWS,Docker,Kubernetes,Linux,Python",Build full stack web applications,CSE students,https://example.com
+16,ByteForge,Python Developer Intern,Internship,Delhi,"React,Node.js,Express,MongoDB,JavaScript",Analyze business data and create dashboards,CSE students,https://example.com
+17,TechNova,Data Science Intern,Internship,Remote,"Python,SQL,Pandas,Machine Learning,Statistics",Software engineering tasks and feature development,B.Tech/M.Tech students,https://example.com
+18,WebWorks,Frontend Intern,Internship,Bangalore,"React,Node.js,Express,MongoDB,JavaScript",Manage cloud infrastructure and deployments,B.Tech/M.Tech students,https://example.com
+19,CloudCore,Full Stack Intern,Internship,Delhi,"React,Node.js,Express,MongoDB,JavaScript",Research cutting-edge AI architectures,B.Tech/M.Tech students,https://example.com
+20,CloudCore,DevOps Intern,Internship,Hyderabad,"C++,Data Structures,Algorithms,Problem Solving",Build machine learning solutions,All Engineering students,https://example.com
+21,WebWorks,Software Engineering Intern,Internship,Remote,"Java,Spring Boot,SQL,REST API,Docker",Software engineering tasks and feature development,ECE/CSE students,https://example.com
+22,WebWorks,Frontend Intern,Internship,Remote,"Java,Spring Boot,SQL,REST API,Docker",Build full stack web applications,CSE/IT students,https://example.com
+23,InnoSoft,Full Stack Intern,Internship,Chennai,"SQL,Excel,Tableau,Python,Data Analysis",Develop modern web user interfaces,CSE/IT students,https://example.com
+24,DataGenix,AI Research Intern,Internship,Bangalore,"Python,Django,SQL,REST API,Git",Research cutting-edge AI architectures,CSE students,https://example.com
+25,AppScale,Full Stack Intern,Internship,Mumbai,"SQL,Excel,Tableau,Python,Data Analysis",Research cutting-edge AI architectures,CSE/IT students,https://example.com
+26,CloudCore,Software Engineering Intern,Internship,Mumbai,"Python,Flask,SQL,Docker,Kubernetes",Research cutting-edge AI architectures,All Engineering students,https://example.com
+27,CloudCore,Data Science Intern,Internship,Hyderabad,"Python,Flask,SQL,Docker,Kubernetes",Build full stack web applications,CSE/AI students,https://example.com
+28,CloudCore,Python Developer Intern,Internship,Mumbai,"Python,Flask,SQL,Docker,Kubernetes",Manage cloud infrastructure and deployments,CSE/IT students,https://example.com
+29,TechNova,Frontend Intern,Internship,Remote,"Python,Flask,SQL,Docker,Kubernetes",Manage cloud infrastructure and deployments,B.Tech/M.Tech students,https://example.com
+30,NexGen,ML Intern,Internship,Mumbai,"Python,Flask,SQL,Docker,Kubernetes",Design and maintain scalable backend services,ECE/CSE students,https://example.com
+31,InnoSoft,Frontend Intern,Internship,Delhi,"Python,Django,SQL,REST API,Git",Build full stack web applications,B.Tech/M.Tech students,https://example.com
+32,WebWorks,ML Intern,Internship,Pune,"Python,SQL,Pandas,Machine Learning,Statistics",Analyze business data and create dashboards,CSE/IT students,https://example.com
+33,DataGenix,Data Analyst Intern,Internship,Pune,"JavaScript,React,HTML,CSS,Git",Analyze business data and create dashboards,B.Tech/M.Tech students,https://example.com
+34,AI_Sphere,Data Analyst Intern,Internship,Hyderabad,"AWS,Docker,Kubernetes,Linux,Python",Research cutting-edge AI architectures,All Engineering students,https://example.com
+35,NexGen,Data Science Intern,Internship,Chennai,"C++,Data Structures,Algorithms,Problem Solving",Software engineering tasks and feature development,CSE/AI students,https://example.com
+36,AppScale,Data Analyst Intern,Internship,Chennai,"Python,Django,SQL,REST API,Git",Build full stack web applications,CSE/IT students,https://example.com
+37,CodeCraft,Data Science Intern,Internship,Mumbai,"Python,Django,SQL,REST API,Git",Develop modern web user interfaces,CSE/IT students,https://example.com
+38,CloudCore,Data Analyst Intern,Internship,Hyderabad,"JavaScript,React,HTML,CSS,Git",Research cutting-edge AI architectures,CSE/IT students,https://example.com
+39,WebWorks,Full Stack Intern,Internship,Remote,"Java,Spring Boot,SQL,REST API,Docker",Develop modern web user interfaces,CSE/AI students,https://example.com
+40,CloudCore,Data Science Intern,Internship,Bangalore,"AWS,Docker,Kubernetes,Linux,Python",Analyze business data and create dashboards,CSE/AI students,https://example.com
+41,TechNova,Backend Intern,Internship,Pune,"Python,Machine Learning,TensorFlow,SQL,Docker",Manage cloud infrastructure and deployments,B.Tech/M.Tech students,https://example.com
+42,AppScale,Full Stack Intern,Internship,Bangalore,"Java,Spring Boot,SQL,REST API,Docker",Build machine learning solutions,All Engineering students,https://example.com
+43,AppScale,Python Developer Intern,Internship,Remote,"Python,Django,SQL,REST API,Git",Manage cloud infrastructure and deployments,ECE/CSE students,https://example.com
+44,ByteForge,Backend Intern,Internship,Bangalore,"Python,Machine Learning,TensorFlow,SQL,Docker",Develop modern web user interfaces,CSE students,https://example.com
+45,CloudCore,Data Science Intern,Internship,Remote,"AWS,Docker,Kubernetes,Linux,Python",Build full stack web applications,CSE students,https://example.com
+46,AI_Sphere,Data Analyst Intern,Internship,Hyderabad,"Python,SQL,Pandas,Machine Learning,Statistics",Software engineering tasks and feature development,CSE/IT students,https://example.com
+47,WebWorks,Data Analyst Intern,Internship,Hyderabad,"Python,Machine Learning,TensorFlow,SQL,Docker",Build full stack web applications,CSE students,https://example.com
+48,InnoSoft,Frontend Intern,Internship,Remote,"AWS,Docker,Kubernetes,Linux,Python",Research cutting-edge AI architectures,CSE/IT students,https://example.com
+49,AppScale,AI Research Intern,Internship,Remote,"Java,Spring Boot,SQL,REST API,Docker",Research cutting-edge AI architectures,CSE students,https://example.com
+50,TechNova,Python Developer Intern,Internship,Pune,"Java,Spring Boot,SQL,REST API,Docker",Research cutting-edge AI architectures,ECE/CSE students,https://example.com

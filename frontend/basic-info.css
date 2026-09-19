@@ -1,0 +1,274 @@
+:root {
+
+    --primary: #0d766d;
+    --primary2: #16a394;
+
+    --navy: #122b3a;
+
+    --text: #173042;
+    --muted: #71818c;
+
+    --background: #f4f8fa;
+
+    --white: #ffffff;
+
+    --border: #dce6eb;
+}
+
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: "DM Sans", sans-serif;
+
+    background:
+
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(22,163,148,.12),
+            transparent 30%
+        ),
+
+        var(--background);
+
+    color: var(--text);
+
+    min-height: 100vh;
+}
+
+
+.profile-page {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+.profile-card {
+
+    width: 100%;
+
+    max-width: 720px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 24px;
+
+    padding: 42px;
+
+    box-shadow:
+        0 25px 70px rgba(18,43,58,.10);
+}
+
+
+.profile-header {
+
+    display: flex;
+
+    gap: 18px;
+
+    align-items: flex-start;
+
+    margin-bottom: 35px;
+}
+
+
+.brand-icon {
+
+    width: 48px;
+
+    height: 48px;
+
+    flex-shrink: 0;
+
+    display: grid;
+
+    place-items: center;
+
+    border-radius: 14px;
+
+    color: white;
+
+    font-weight: 700;
+
+    font-family: "Space Grotesk";
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--primary),
+            var(--primary2)
+        );
+}
+
+
+.brand-name {
+
+    color: var(--primary);
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+
+.profile-header h1 {
+
+    font-family: "Space Grotesk";
+
+    font-size: 32px;
+
+    color: var(--navy);
+
+    margin-bottom: 8px;
+}
+
+
+.profile-header p {
+
+    color: var(--muted);
+
+    font-size: 14px;
+}
+
+
+.form-group {
+
+    margin-bottom: 23px;
+}
+
+
+.form-group label {
+
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+
+    color: var(--navy);
+}
+
+
+.form-group input,
+.form-group textarea {
+
+    width: 100%;
+
+    border: 1px solid var(--border);
+
+    background: #fbfdfe;
+
+    border-radius: 12px;
+
+    padding: 14px 15px;
+
+    outline: none;
+
+    color: var(--text);
+
+    transition: .2s;
+}
+
+
+.form-group textarea {
+
+    min-height: 95px;
+
+    resize: vertical;
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+
+    border-color: var(--primary);
+
+    box-shadow:
+        0 0 0 3px rgba(13,118,109,.08);
+}
+
+
+.form-group small {
+
+    display: block;
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    margin-top: 6px;
+}
+
+
+.submit-button {
+
+    width: 100%;
+
+    border: none;
+
+    cursor: pointer;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    color: white;
+
+    font-weight: 700;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--primary),
+            var(--primary2)
+        );
+
+    transition: .25s;
+}
+
+
+.submit-button:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 12px 25px rgba(13,118,109,.20);
+}
+
+
+@media(max-width:600px) {
+
+    .profile-card {
+
+        padding: 25px;
+
+        border-radius: 18px;
+    }
+
+    .profile-header h1 {
+
+        font-size: 26px;
+    }
+
+}
